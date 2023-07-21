@@ -1,0 +1,312 @@
+* A technique in which a program attacks a network by exploiting IP broadcast addressing operations. 
+(a) Smurfing (b) Denial of service (c) E-mail bombing (d) Ping storm
+ans:a
+* The information that gets transformed in encryption is ____________ 
+(a) Plain text (b) Parallel text (c) Encrypted text (d) Decrypted text
+ans:a
+*  Which of the following are the types of scanning?
+Network, vulnerability, and port scanning
+Port, network, and services
+Client, Server, and network
+None of the above
+ans:a
+* In which one of the following phases, IT Architecture Development came?
+a. Strategy Phase
+b. Planning Phase c. Deployment Phase d. Development Phase
+Answer: B
+* Which of the following are famous and common cyber-attacks used by hackers to infiltrate the user's system?
+a)DDos and Derive-by Downloads
+b)Malware & Malvertising
+c)Phishing and Password attacks
+d)All of the above
+Correct answer is option 'D'
+* What is the output of C Program.?
+int main()
+{
+    int a=10,b=20;
+    
+    if(a==9 AND b==20)
+    {
+        printf("Hurray..");
+    }
+    
+    if(a==10 OR b==21)
+    {
+        printf("Theatre");
+    }
+
+    return 0;
+}
+A) Theatre
+B) Hurray
+Theatre
+C) No output
+D) Compiler error
+ans:d
+* Choose facts about continue; statement is C Language.
+A) continue; is used to take the execution control to next iteration or sequence
+B) continue; statement causes the statements below it to skip for execution
+C) continue; is usually accompanied by IF statement.
+D) All the above.
+ans:d
+* What is the output of C Program.?
+int main()
+{
+    int a=14;
+    
+    while(a<20)
+    {
+        ++a;
+        if(a>=16 && a<=18)
+        {
+            continue;
+        }
+        printf("%d ", a);
+       
+    }
+
+    return 0;
+}
+A) 15 16 17 18 19
+B) 15 18 19
+C) 15 16 20
+D) 15 19 20
+ans:d
+* Choose a correct C Statement regarding for loop.
+for(; ;);
+A) for loop works exactly first time
+B) for loop works infinite number of times
+C) Compiler error
+D) None of the above
+ans:b
+* What is the output of C Program.?
+int main()
+{
+    int a=10, b, c;
+    b=a++;
+    c=++a;
+    printf("%d %d %d", a, b, c);
+
+    return 0;
+}
+A) 10 11 12
+B) 12 10 12
+C) 12 11 12
+D) 12 12 12
+ans:b
+*What is the output of C Program.?
+int main()
+{
+    int a=10,b=20;
+    
+    if(a==9 AND b==20)
+    {
+        printf("Hurray..");
+    }
+    
+    if(a==10 OR b==21)
+    {
+        printf("Theatre");
+    }
+
+    return 0;
+}
+A) Theatre
+B) Hurray
+Theatre
+C) No output
+D) Compiler error
+ans:d
+* What will be the output of the following C code?
+
+    #include <stdio.h>
+    void main()
+    {
+        int x = 1, y = 0, z = 5;
+        int a = x && y || z++;
+        printf("%d", z);
+    }
+a) 6
+b) 5
+c) 0
+d) Varies
+
+Answer: a
+*What will be the output of the following C function?
+
+    #include <stdio.h>
+    int main()
+    {
+        reverse(1);
+    }
+    void reverse(int i)
+    {
+        if (i > 5)
+            exit(0);
+        printf("%d\n", i);
+        return reverse(i++);
+    }
+a) 1 2 3 4 5
+b) 1 2 3 4
+c) Compile time error
+d) Stack overflow
+Answer: d
+* It is not advisable to use macros instead of functions because
+a)No type checking will be done and it increases the code size.
+b)Recursion is not possible.
+c)Pointers cannot be used with macro identifiers.
+d)All of the above
+Correct answer is option 'D'
+* void main()
+{
+   int a=10, b;
+   b = a++ + ++a;
+   printf("%d %d %d %d", b, a++, a, ++a);
+}
+what will be the output when following code is executed?
+A. 12 10 11 13
+
+B. 22 12 12 13
+
+C. 22 11 11 11
+
+D. 22 14 12 13
+
+E. 22 13 14 14
+
+Answer: Option E
+*What is the right choice, if the following loop is implemented?
+void main()
+{
+   int num = 0;
+   do{
+      --num;
+      printf("%d", num);
+   }while( ++num >= 0 );
+}
+A. A run time error will be generated.
+
+B. The program will not enter into the loop.
+
+C. There will be a compilation error reported.
+
+D. The loop will run infinitely many times.
+
+E. Prints the value of 0 one time only.
+
+Answer: Option D
+*Which enables us to send the same letter to different persons?
+A. Macros
+
+B. Template
+
+C. Mail merge
+
+D. None of above
+
+Answer: Option C
+* Portrait and Landscape are
+A. Page Orientation
+
+B. Paper Size
+
+C. Page Layout
+
+D. All of above
+
+Answer: Option A
+*_____is the science that attempts to produce machines that display the same type of intelligence that humans do.
+A. Nano science
+
+B. Nanotechnology
+
+C. Simulation
+
+D. Artificial intelligence (AI)
+
+E. None of these
+
+Answer: Option D
+*Question : On which day of the week was birthday of Sahil ?
+
+Statements :
+I. Sahil celebrated his birthday the very next day on which Arun celebrated his birthday.
+II. The sister of Sahil was born on the third day of the week and two days after Sahil was born.
+A. I alone is sufficient while II alone is not sufficient
+
+B. II alone is sufficient while I alone is not sufficient
+
+C. Either I or II is sufficient
+
+D. Neither I nor II is sufficient
+
+E. Both I and II are sufficient
+
+Answer: Option B
+*Directions : In each of the following questions a statement is given, followed by two conclusions. Give answer :
+
+Statements : National Aluminium Company has moved India from a position of shortage to self-sufficiency in the metal.
+
+Conclusions :
+I. Previously, India had to import aluminium.
+II. With this speed, it can soon become a foreign exchange earner.
+A. Only conclusion I follows
+
+B. Only conclusion II follows
+
+C. Either I or II follows
+
+D. Neither I nor II follows
+
+E. Both I and II follow
+
+Answer: Option E
+*Question : Who among P, Q, T, V and M is exactly in the middle when they are arranged in ascending order of their heights ?
+
+Statements :
+I. V is taller than Q but shorter than M.
+II. T is taller than Q and M but shorter than P.
+A. I alone is sufficient while II alone is not sufficient
+
+B. II alone is sufficient while I alone is not sufficient
+
+C. Either I or II is sufficient
+
+D. Neither I nor II is sufficient
+
+E. Both I and II are sufficient
+
+Answer: Option E
+*Grass 
+→
+ Grasshopper 
+→
+ Frog 
+→
+ Snake
+
+From the given food chain, which organism's population is likely to decrease if the number of snakes increase?
+
+A
+Grass and grasshopper
+B
+Only grasshopper
+C
+Only frog
+D
+Grass and frog
+Solution
+The correct option is (D)
+* He admired the speed with which he completed the work and appreciating the method adopted by him
+A. appreciate the method being adopted
+
+B. appreciated the method adopted
+
+C. appreciate the method of adoption
+
+D. appreciated the method adopting method
+
+E. No correction required
+
+Answer: Option B
+*
